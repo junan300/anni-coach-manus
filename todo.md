@@ -71,3 +71,17 @@
 
 ## LinkedIn URL Update
 - [x] Change LinkedIn URL to www.linkedin.com/in/anniaguilar
+
+## Retiro de Mujeres Landing Page
+- [x] Copy retreat images to project public folder
+- [x] Create /retiro route and page component
+- [x] Design landing page with warm earthy color scheme (gold/brown tones)
+- [x] Add hero section with retreat title and main image
+- [x] Add retreat details section (Talleres Mindfulness, Rito de Sanación, Yoga Gentil)
+- [x] Add early bird special section (first 10 women discount)
+- [x] Create interest form (name, email, phone)
+- [x] Create newsletter signup form
+- [x] Implement form submission to retiroessenciafemenina@gmail.com
+- [x] Add link back to main Anni Aguilar Coach website
+- [ ] Test form submissions
+- [ ] Save checkpoint and push to GitHub

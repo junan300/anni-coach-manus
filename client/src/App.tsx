@@ -16,6 +16,7 @@ import Courses from "./pages/Courses";
 import Dashboard from "./pages/Dashboard";
 import Admin from "./pages/Admin";
 import AdminCourseNew from "./pages/AdminCourseNew";
+import Retiro from "./pages/Retiro";
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
@@ -30,6 +31,7 @@ function Router() {
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/admin" component={Admin} />
       <Route path="/admin/courses/new" component={AdminCourseNew} />
+      <Route path="/retiro" component={Retiro} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

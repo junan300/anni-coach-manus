@@ -81,7 +81,7 @@ export default function About() {
             <div className="space-y-6">
               <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
                 <img 
-                  src="/images/CubiStudio-Anni-0048.jpg" 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663026721789/ILFQGAgpktwplLaN.jpg" 
                   alt="Coaching Session" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />

@@ -70,7 +70,7 @@ export default function Home() {
               <div className="relative mx-auto lg:ml-auto max-w-md lg:max-w-full">
                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
                   <img 
-                    src="/images/CubiStudio-Anni-0048.jpg" 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663026721789/ILFQGAgpktwplLaN.jpg" 
                     alt="Anni Aguilar Coaching Session" 
                     className="h-full w-full object-cover"
                   />
