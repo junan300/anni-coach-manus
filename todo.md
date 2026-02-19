@@ -83,5 +83,12 @@
 - [x] Create newsletter signup form
 - [x] Implement form submission to retiroessenciafemenina@gmail.com
 - [x] Add link back to main Anni Aguilar Coach website
-- [ ] Test form submissions
-- [ ] Save checkpoint and push to GitHub
+- [x] Test form submissions
+- [x] Optimize large images by uploading to S3 CDN
+- [x] Save checkpoint and push to GitHub
+
+## Make Retiro Page Discoverable
+- [x] Add "Retiro de Mujeres" link to main navigation menu
+- [x] Test navigation from homepage to Retiro page
+- [x] Verify all links work correctly
+- [ ] Save checkpoint
