@@ -89,9 +89,6 @@ export default function Retiro() {
             <h1 className="text-5xl md:text-7xl font-heading font-bold drop-shadow-2xl">
               Retiro de Mujeres
             </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-lg font-light">
-              Un espacio sagrado para la curación profunda, el autodescubrimiento y la renovación
-            </p>
             <div className="inline-block bg-gradient-to-r from-amber-600 to-orange-600 px-8 py-4 rounded-full shadow-2xl">
               <p className="text-2xl font-bold">¡ESPECIAL TEMPRANO!</p>
               <p className="text-lg">Para las primeras 10 mujeres que reserven</p>

@@ -91,4 +91,9 @@
 - [x] Add "Retiro de Mujeres" link to main navigation menu
 - [x] Test navigation from homepage to Retiro page
 - [x] Verify all links work correctly
+- [x] Save checkpoint
+
+## Retiro Page Mobile Optimization
+- [x] Remove subtitle text from hero section for cleaner mobile appearance
+- [x] Test on mobile view
 - [ ] Save checkpoint
