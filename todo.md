@@ -96,4 +96,10 @@
 ## Retiro Page Mobile Optimization
 - [x] Remove subtitle text from hero section for cleaner mobile appearance
 - [x] Test on mobile view
+- [x] Save checkpoint
+
+## Retiro Hero Section Redesign
+- [x] Move title and special offer banner below hero image
+- [x] Ensure clean background for text elements
+- [x] Test visual appearance
 - [ ] Save checkpoint

@@ -78,21 +78,22 @@ export default function Retiro() {
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-amber-900/20 to-amber-900/40 z-10"></div>
         <img
           src="/retiro-1.jpeg"
           alt="Retiro de Mujeres"
-          className="w-full h-[600px] object-cover"
+          className="w-full h-[500px] md:h-[600px] object-cover"
         />
-        <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="text-center text-white px-4 space-y-6">
-            <h1 className="text-5xl md:text-7xl font-heading font-bold drop-shadow-2xl">
-              Retiro de Mujeres
-            </h1>
-            <div className="inline-block bg-gradient-to-r from-amber-600 to-orange-600 px-8 py-4 rounded-full shadow-2xl">
-              <p className="text-2xl font-bold">¡ESPECIAL TEMPRANO!</p>
-              <p className="text-lg">Para las primeras 10 mujeres que reserven</p>
-            </div>
+      </section>
+
+      {/* Title and Special Offer Section */}
+      <section className="py-12 px-4 bg-gradient-to-b from-amber-50 to-orange-50">
+        <div className="container max-w-4xl mx-auto text-center space-y-6">
+          <h1 className="text-4xl md:text-6xl font-heading font-bold text-amber-900">
+            Retiro de Mujeres
+          </h1>
+          <div className="inline-block bg-gradient-to-r from-amber-600 to-orange-600 px-8 py-4 rounded-full shadow-xl">
+            <p className="text-xl md:text-2xl font-bold text-white">¡ESPECIAL TEMPRANO!</p>
+            <p className="text-base md:text-lg text-white">Para las primeras 10 mujeres que reserven</p>
           </div>
         </div>
       </section>
