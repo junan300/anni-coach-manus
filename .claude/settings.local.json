@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL -o client/public/images/hero_coaching_session.jpg \"https://files.manuscdn.com/user_upload_by_module/session_file/310419663026721789/ILFQGAgpktwplLaN.jpg\")"
+    ]
+  }
+}
