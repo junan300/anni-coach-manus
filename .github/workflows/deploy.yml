@@ -31,15 +31,8 @@ jobs:
         run: pnpm install
 
       - name: Set base path
-        # User/org sites (username.github.io) and custom domains deploy at "/".
-        # Project sites deploy under "/<repo-name>/".
-        # If you add a custom domain later, change BASE_PATH to "/".
-        run: |
-          if [[ "${{ github.event.repository.name }}" == *.github.io ]]; then
-            echo "BASE_PATH=/" >> "$GITHUB_ENV"
-          else
-            echo "BASE_PATH=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
-          fi
+        # Custom domain anniaguilar.com serves from root
+        run: echo "BASE_PATH=/" >> "$GITHUB_ENV"
 
       - name: Build
         run: pnpm build
