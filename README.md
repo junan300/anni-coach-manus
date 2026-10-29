@@ -1,37 +1,26 @@
-# Anni Aguilar — Coaching Website
+# Anni Aguilar — local update candidate
 
-Fully static bilingual (EN/ES) coaching website built with Vite + React + Tailwind.
-No backend, no database — booking runs through the embedded Calendly widget.
+The delivered replacement renders from `client/index.html`: a Spanish static landing page with inline CSS/JavaScript, anchor navigation, FAQs and WhatsApp links. It does **not** load `client/src/main.tsx`. The retained React sources are inactive; editing them does not change this landing page.
 
-## Develop
+## Local verification
 
-```bash
-pnpm install
-pnpm dev        # local dev server
-pnpm build      # static build → dist/
-pnpm preview    # preview the production build
+Use Node.js 22 and pnpm 10.4.1:
+
+```sh
+pnpm install --frozen-lockfile --ignore-scripts
+pnpm build
+pnpm check
+pnpm audit
+pnpm preview --host 127.0.0.1
 ```
 
-## Deploy (GitHub Pages)
+Build output is `dist/`. Images and `CNAME` are copied from `client/public/`. The workflow uses the root base path and a frozen lockfile. A push to `main` would trigger production deployment; keep this candidate on its review branch until approved.
 
-1. Push this repo to GitHub (branch `main`).
-2. In the repo: **Settings → Pages → Source → GitHub Actions**.
-3. Every push to `main` builds and deploys automatically via
-   [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+## Review before release
 
-The workflow auto-detects the base path (`/<repo-name>/` for project sites,
-`/` for `username.github.io` sites). **If you add a custom domain**, set
-`BASE_PATH=/` in the workflow's "Set base path" step.
+- Confirm Spanish-only content is intended; the current bilingual React experience is replaced.
+- Confirm WhatsApp +1 832 472 5069 belongs to Anni and accepts inquiries.
+- Decide whether to retain Calendly booking, email contact, English content and old page URLs (`/about`, `/services`, `/courses`, `/testimonials`, `/contact`, `/booking`). The generated `404.html` shows the landing page but does not preserve these routes' original content.
+- Confirm credentials, service claims, images and social profile destinations. Social handle text is not a clickable link.
 
-The site also works as-is on any static host (Netlify, Cloudflare Pages,
-Vercel): build command `pnpm build`, output directory `dist`.
-
-## Pages
-
-- `/` — Home
-- `/about` — About Anni
-- `/services` — Coaching services
-- `/courses` — Online courses (coming soon)
-- `/testimonials` — Client testimonials
-- `/contact` — Contact info
-- `/booking` — Calendly booking embed
+No backend/database or credentials are needed by the active landing page. It loads Google Fonts and opens WhatsApp only when clicked. The unused React booking component contains a Calendly embed.
